@@ -8,7 +8,7 @@ export default class Index extends Component {
 
     state = {
         prices: [100, 150, 200],
-        linkTo: ['http://localhost:3000', 'http://localhost:3000', 'http://localhost:3000'],
+        linkTo: ['/', '/', '/'],
         postions: ['Balcony', 'Medium', 'Star'],
         desc: [
             'Quas voluptatum aspernatur excepturi rerum quibusdam aperiam possimus ea eaque sint vel? Lorem ipsum dolor sit amet .',
