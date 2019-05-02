@@ -24,6 +24,7 @@ export default function SideDrawer(props) {
         <List component="nav">
             <ListItem button onClick={()=>  scrollToElement('featured')}>Event starts in</ListItem>
             <ListItem button onClick={()=>  scrollToElement('venuInfo')}>Venue Info</ListItem>
+            <ListItem button onClick={()=>  scrollToElement('gallery')}>Gallery</ListItem>
             <ListItem button onClick={()=>  scrollToElement('highlights')}>Highlights</ListItem>
             <ListItem button onClick={()=>  scrollToElement('pricing')}>Pricing</ListItem>
             <ListItem button onClick={()=>  scrollToElement('location')}>Location</ListItem>

@@ -6,9 +6,9 @@ export default function Footer() {
   return (
     <footer className="bck_red">
         <Fade delay={500}>
-            <div className="font_righteous footer_logo_venu">The Venu</div>
+            <div className="font_righteous footer_logo_venu">Kiddiesdom</div>
             <div className="footer_copyright">
-                 The Event 2019. All rights reserved
+                 Safety for kids in Nigeria.
             </div>
         </Fade>
     </footer>

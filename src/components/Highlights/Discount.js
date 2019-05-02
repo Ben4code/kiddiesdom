@@ -41,13 +41,13 @@ export default class Discount extends Component {
 
                     <Slide right>
                         <div className="discount_description">
-                            <h3>Purchase tickets before Dec 16 2019.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum perspiciatis ducimus quae. Dolore quasi amet ea alias esse, corrupti architecto aut quisquam laboriosam, optio ut velit eligendi ullam quaerat adipisci assumenda repellat impedit ipsam ratione. Atque laborum corporis magni sed.
+                            <h3>Purchase tickets before Dec 26 2019.</h3>
+                            <p>Purchase your ticket before the 26th of December to get our 30% discount. In addition early participants will be trained on basic Paediatric First Aid skills.
                             </p>
                             <MyButton 
                             link="/" 
                             color="#fff" 
-                            text="Purchase Tickets"
+                            text="Purchase Tickets on Eventbrite"
                             bck="#ffa800"
 
                             />

@@ -358,3 +358,27 @@ footer .footer_copyright {
     padding: 15px 20px;
     text-align: center;
 }
+.gallery{
+    width: 100%;
+    padding-bottom: 100px;
+    background: #25AAE2;
+}
+.gallery h2{
+    
+    padding: 100px;
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c2c2c;
+    font-size: 52px;
+}
+.galleryImages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.galleryImages img{
+    object-fit: cover;
+    height: 350px;
+    width: 350px;
+}

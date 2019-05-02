@@ -1,17 +1,20 @@
 import React from 'react'
-import Carousel from './Carousel'
+import hero from '../../images/hero.png'
 import TimeUntill from './TimeUntill'
 
 export default function Index() {
+    const heroStyle = {
+        backgroundImage: `url(${hero})`,
+        backgroundSize: 'cover',
+        backgroundposition: 'center',
+        backgroundRepeat: 'no-repeat',
+        height: '105vh'
+    }
     return (
         <div style={{ position: 'relative' }}>
-            <Carousel />
-            <TimeUntill/>
-            <div className="artist_name">
-                <div className="wrapper">
-                    Ariana Grande
-                </div>
+            <div className="hero" style={heroStyle}>
             </div>
+            <TimeUntill/>
         </div>
     )
 }

@@ -7,15 +7,15 @@ import Zoom from 'react-reveal/Zoom'
 export default class Index extends Component {
 
     state = {
-        prices: [100, 150, 200],
+        prices: [1000, 1500, 2000],
         linkTo: ['/', '/', '/'],
-        postions: ['Balcony', 'Medium', 'Star'],
+        postions: ['Earlybird', 'General', 'VIP'],
         desc: [
-            'Quas voluptatum aspernatur excepturi rerum quibusdam aperiam possimus ea eaque sint vel? Lorem ipsum dolor sit amet .',
+            'Book as early as the 26th of December to be registered as an earlybird attendee.',
 
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatum aspernatur excepturi rerum quibusdam aperiam.',
+            'This is our general ticket fee for every attendee. Ticket sales ends on the 26th of January.',
 
-            'Dolor sit amet consectetur adipisicing elit. Quas voluptatum aspernatur excepturi rerum quibusdam aperiam possimus?'
+            'Get first-hand firstaid tranning plus presentation materials. Register as a VIP to get the best experience.'
         ],
         delay: [500,0, 500]
     }
@@ -27,7 +27,7 @@ export default class Index extends Component {
                     <div className="pricing_item">
                         <div className="pricing_inner_wrapper">
                             <div className="pricing_title">
-                                <span>${this.state.prices[index]}</span>
+                                <span>&#x20A6;{this.state.prices[index]}</span>
                                 <span> {this.state.postions[index]}</span>
 
                             </div>
